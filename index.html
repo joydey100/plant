@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant | Landing Page Design</title>
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <div class="navigation">
+        <ul>
+            <li><a href="#" onclick="toggleMenu();"> Home </a></li>
+            <li><a href="#" onclick="toggleMenu();"> About </a></li>
+            <li><a href="#" onclick="toggleMenu();"> All Plants </a></li>
+            <li><a href="#" onclick="toggleMenu();"> Pricing </a></li>
+            <li><a href="#" onclick="toggleMenu();"> Contact  </a></li>
+        </ul>
+    </div>
+    <!-- End of Navigation -->
+
+
+
+
+    <!-- Header part -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <a href="#"> Plant </a>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#"> Home </a></li>
+                        <li><a href="#"> About </a></li>
+                        <li><a href="#"> All Plants </a></li>
+                        <li><a href="#"> Pricing </a></li>
+                        <li><a href="#" class="btn"> Contact Now </a></li>
+                    </ul>
+                </div>
+                <div class="toggle" onclick="toggleMenu();">  </div>
+            </nav>
+        </div>        
+    </header>
+    <!-- End of Header part -->
+
+    <!-- Banner part -->
+    <section id="banner">
+        <div class="container">            
+            <div class="banner-container">
+                <div class="textbox">
+                    <h2> Enrich Beauty with <br> <span> Natural Plant </span> </h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda adipisci suscipit facere provident omnis sint quae ad obcaecati similique qui, sit quos magni, error, repellendus voluptatibus. Distinctio harum laboriosam quaerat rem beatae. Quibusdam saepe, maxime nesciunt aperiam fuga maiores eius? Ut, officia itaque? Inventore, laborum?</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                <div class="imgbox">
+                    <img src="img/plant1.jpg" alt="plant1" class="plant">
+                </div>
+            </div>
+            <div class="social">
+                <ul>
+                    <li><a href="#"><img src="img/facebook.png" alt="facebook"></a></li>
+                    <li><a href="#"><img src="img/instagram.png" alt="instagram"></a></li>
+                    <li><a href="#"><img src="img/twitter.png" alt="twitter"></a></li>
+                </ul>
+            </div>
+
+            <div class="thumb">
+                <ul>
+                    <li><a href="#"> <img src="img/plant1.jpg" alt="plant1" onclick="plantChange('img/plant1.jpg');"></a></li>
+                    <li><a href="#"> <img src="img/plant2.jpg" alt="plant1" onclick="plantChange('img/plant2.jpg');"></a></li>
+                    <li><a href="#"> <img src="img/plant3.jpg" alt="plant1" onclick="plantChange('img/plant3.jpg');"></a></li>
+                </ul>
+            </div>
+        </div>        
+        
+    </section>
+    <!-- End of Banner part -->
+    
+    <!-- Main js -->
+    <script src="app.js"></script>
+</body>
+</html>
